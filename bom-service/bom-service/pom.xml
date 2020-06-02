@@ -38,6 +38,7 @@
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
+        <maven-surefire-plugin.version>2.18.1</maven-surefire-plugin.version>
     </properties>
 
     <dependencies>
@@ -96,21 +97,21 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>pl.project13.maven</groupId>
-                <artifactId>git-commit-id-plugin</artifactId>
-                <configuration>
-                    <failOnNoGitDirectory>false</failOnNoGitDirectory>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>pl.project13.maven</groupId>-->
+<!--                <artifactId>git-commit-id-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <failOnNoGitDirectory>false</failOnNoGitDirectory>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
     <modules>
-        <module>bills-service</module>
-        <module>config-server</module>
-        <module>currency-service</module>
-        <module>eureka-service</module>
-        <module>users-service</module>
-        <module>zuul-service</module>
+        <module>../bill-service</module>
+        <module>../config-server</module>
+        <module>../currency-service</module>
+        <module>../eureka-service</module>
+        <module>../users-service</module>
+        <module>../zuul-service</module>
     </modules>
 </project>
