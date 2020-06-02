@@ -1,4 +1,8 @@
 # home-accounting-finish - microservices.
+Spring Cloud: Netflix:
+Eureka Server, Eureka Client, Feign Client, Zuul API Gateway, Ribbon, Server,  Config Client, Hystrix, Spring Cloud Sleutch, Spring Cloud Circuit Breaker,  Spring Cloud Bus
+
+JWT Security, ELK (Elastic Search Kibana), RabbitMQ, MySql
 
 <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <-> <->  
 # config-server-for-home-accounting
